@@ -39,3 +39,15 @@ O código de programação escrito por programadores não é compreendido pela m
 E também a abordagem híbrida, **"compilação + máquina virtual"**, onde todo o código é pré-compilado e gerado um código intermediário o **"bytecode"** (Common Intermediate Language - CIL) possuindo a vantagem do mesmo código rodar em plataformas diferentes (platform agnostic). 
 
 O ***bytecode*** é executado em uma máquina virtual (Common Language Runtime - CLR) específica para determinado SO. Este processo é chamado compilação ***just-in-time*** (JIT) sendo, mais rápida que a interpretação.
+
+### Estrutura de uma Aplicação .NET
+
+Uma aplicação é composta por **classes**.
+
+Que podem ser agrupadas em ***namespaces*** (agrupamento lógico de classes relacionadas).
+
+![image](https://user-images.githubusercontent.com/11370094/160211236-92444a16-54ed-4ff9-84c8-5f28f83e1462.png)
+
+Também podem ser agrupadas em ***assembly*** (dll ou exe) (agrupamento físico de classes relacionadas, conhecido como build), pode ser feito separando o projeto em subprojetos, gerando executaveis para cada subprojeto.
+
+E por fim existe o agrupamento ***solution*** (aplicação), agrupando assemblies relacionados.
