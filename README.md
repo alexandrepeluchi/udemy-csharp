@@ -51,3 +51,26 @@ Que podem ser agrupadas em ***namespaces*** (agrupamento lógico de classes rela
 Também podem ser agrupadas em ***assembly*** (dll ou exe) (agrupamento físico de classes relacionadas, conhecido como build), pode ser feito separando o projeto em subprojetos, gerando executaveis para cada subprojeto.
 
 E por fim existe o agrupamento ***solution*** (aplicação), agrupando assemblies relacionados.
+
+## Estrutura de um programa C#
+
+Como é estruturado e quais os arquivos e extensões de uma aplicação C#.
+
+Estrutura de arquivos:
+  * Um projeto C# é uma solução (`.sln`), arquivo no qual é aberto a aplicação em uma IDE.
+  * O arquivo `.csproj` contêm as configurações da seu projeto, por exemplo, possui as dependências.
+  * Arquivos `.cs` são arquivos da linguagem C#.
+  * Por fim, arquivos `obj` e `bin` possui os arquivos compilados, quando é executado a aplicação.
+
+Estrutuda do código:
+  * Cláusulas `using`, são referências a outros `namespaces`.
+  * Os `namespace` são amplamente usados de duas maneiras, a primeira para organizar suas várias classes e a segunda para ajudar controlar o escopo dos nomes de classe e método em projetos maiores.
+  * A **classe** define as propriedades, campos, eventos e métodos de um objeto. Por convenção o nome do arquivo `.cs` tem o mesmo nome da classe.
+  * O **método** é um bloco de código que contém uma série de instruções.
+  * O `static void Main(string[] args)` é uma declaração padrão para identificar o ponto de entrada da aplicação, ou seja, onde a execução começa.
+
+## Atalhos no Visual Studio Code
+
+**Executar Programa** - CTRL + F5
+
+**Identação Automática** - Shift + Alt + F
