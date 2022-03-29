@@ -69,8 +69,40 @@ Estrutuda do código:
   * O **método** é um bloco de código que contém uma série de instruções.
   * O `static void Main(string[] args)` é uma declaração padrão para identificar o ponto de entrada da aplicação, ou seja, onde a execução começa.
 
+## Programação Orientada a Objetos
+
+Alguns conceitos sobre POO.
+
+**Classe** é a definição do tipo
+**Objetos** são as instâncias da classe.
+
+### Classe
+
+Saber utilizar e trabalhar com classes é o fundamento principal da programação orientada a objetos. 
+Abaixo estão alguns conceitos que logo serão explicados.
+
+É um tipo estruturado que pode conter (membros):
+  * **Atributos** (dados / campos)
+  * **Métodos** (funções / operações)
+
+Também pode prover outros recursos, como:
+  * **Construtores**
+  * **Sobrecarga**
+  * **Encapsulamento**
+  * **Herança**
+  * **Polimorfirsmo**
+
+Exemplos:
+  * **Entidades**: Empresa, Cliente, Paciente
+  * **Serviços**: EmpresaService, ClienteService, PacienteService
+  * **Controladores**: EmpresaController, ClienteController, PacienteController
+  * **Utilitários**: Calculadora, Compactador
+  * **Outros** (views, repositórios, gerenciadores, etc.)
+
 ## Atalhos no Visual Studio Code
 
 **Executar Programa** - CTRL + F5
 
 **Identação Automática** - Shift + Alt + F
+
+![gaga](https://user-images.githubusercontent.com/11370094/160723366-ca4ad9f1-47f2-466d-a281-90f849767ec6.png)
