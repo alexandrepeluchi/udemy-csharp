@@ -71,9 +71,9 @@ Estrutuda do código:
 
 ## Programação Orientada a Objetos
 
-Alguns conceitos sobre POO.
+Alguns conceitos sobre **POO**.
 
-**Classe** é a definição do tipo
+**Classe** é a definição do tipo.
 **Objetos** são as instâncias da classe.
 
 ### Classe
@@ -98,6 +98,15 @@ Exemplos:
   * **Controladores**: EmpresaController, ClienteController, PacienteController
   * **Utilitários**: Calculadora, Compactador
   * **Outros** (views, repositórios, gerenciadores, etc.)
+
+Toda classe no **C#** é uma subclass da classe `Object`.
+
+**Object** possui os seguintes métodos:
+
+  • `GetType` - retorna o tipo do objeto
+  • `Equals` - compara se o objeto é igual a outro
+  • `GetHashCode` - retorna um código hash do objeto
+  • `ToString` - converte o objeto para string
 
 ## Atalhos no Visual Studio Code
 
