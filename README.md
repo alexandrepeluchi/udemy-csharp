@@ -108,6 +108,19 @@ Toda classe no **C#** é uma subclass da classe `Object`.
   • `GetHashCode` - retorna um código hash do objeto
   • `ToString` - converte o objeto para string
 
+### Membros estáticos (`static`)
+
+São também chamados membros de classe, funcionam independentemente de objetos, portanto, **não precisam** de objeto para serem chamados. São chamados a partir do próprio nome da classe.
+
+**Uso:**
+
+  • Classes utilitárias.
+  **Exemplo:** `Math.Sqrt(double)`, `Calculadora.Soma(num1 + num2)`
+  • Declaração de constantes.
+  • Uma classe que possui somente membros estáticos, pode ser uma classe
+estática também. 
+  • **Esta classe não poderá ser instanciada.**
+
 ## Atalhos no Visual Studio Code
 
 **Executar Programa** - CTRL + F5
